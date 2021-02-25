@@ -15,12 +15,17 @@ from pathlib import Path
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
 
+# get api keys
+# this goes into intradocsbackend, because the working directory is the directory which manage.py is located
+file = Path('intradocsbackend', 'keys.txt')
+key_file = open(file, 'r')
+key = key_file.readline()
 
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/3.1/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = '-k@@dcg66y#3mv&kz-@l0j6$t)-(#$5-mpmk65p%9)58q-0yw6'
+SECRET_KEY = key
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True

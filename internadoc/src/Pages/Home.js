@@ -2,6 +2,7 @@ import MainNavBar from '../Pages/MainNavBar';
 import { Link } from 'react-router-dom';
 
 const Home = () => {
+    // test
     return (
         <div>
             <MainNavBar pageName={'Home'} />
