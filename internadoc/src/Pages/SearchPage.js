@@ -1,5 +1,5 @@
 import SearchBar from '../Components/SearchBar';
-import MainNavBar from '../Pages/MainNavBar';
+import MainNavBar from '../Components/MainNavBar';
 
 const SearchPage = () => {
     return (

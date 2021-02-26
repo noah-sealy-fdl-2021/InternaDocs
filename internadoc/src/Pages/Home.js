@@ -1,4 +1,4 @@
-import MainNavBar from '../Pages/MainNavBar';
+import MainNavBar from '../Components/MainNavBar';
 import { Link } from 'react-router-dom';
 
 const Home = () => {

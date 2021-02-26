@@ -1,5 +1,5 @@
 import SearchResultListing from '../Components/SearchResultListing';
-import MainNavBar from './MainNavBar';
+import MainNavBar from '../Components/MainNavBar';
 import SearchBar from '../Components/SearchBar';
 import { useState, useEffect } from 'react';
 
@@ -17,7 +17,6 @@ const Found = () => {
       const item = await fetchItem.json();
       setFound(item);
   };
-
 
   return (
       <div>
