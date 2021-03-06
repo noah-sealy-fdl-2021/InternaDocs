@@ -36,3 +36,9 @@
     transform: rotate(360deg);
   }
 }
+
+.webViewer {
+  justify-content: center;
+  height: 100vh;
+  width: 70%;
+}
